@@ -11,14 +11,11 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="/">
                         About Me
                     </SidebarLink>
-                    <SidebarLink to="/contact">
-                        Contact Me
+                    <SidebarLink to="/projects">
+                        Projects
                     </SidebarLink>
-                    <SidebarLink to="/about">
-                        About Me
-                    </SidebarLink>
-                    <SidebarLink to="/about">
-                        About Me
+                    <SidebarLink to="/work">
+                        Work
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>

@@ -1,7 +1,6 @@
-import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
+import HeroSection from '../../components/HeroSection';
 import Navbar from "../../components/Navbar";
-import Contact from "../Contact/";
 import Sidebar from "../../components/Sidebar";
 
 const Home = () => {
@@ -14,11 +13,8 @@ const Home = () => {
     return (
         <>
             <Sidebar toggle={Toggle} isOpen={isOpen} />
-            <Routes>
-                <Route path="/" element={<Navbar toggle={Toggle} />}>
-                    <Route path="/contact" element={<Contact />} />
-                </Route>
-            </Routes>
+            <Navbar toggle={Toggle} />
+            <HeroSection />
         </>
     )
 }
