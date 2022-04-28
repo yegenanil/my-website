@@ -1,8 +1,14 @@
-import React from 'react'
-
+import { ContactContainer, ContactTitle, ContactWrapper, } from "./ContactElements"
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <ContactContainer>
+        <ContactWrapper>
+          <ContactTitle>Contact Me</ContactTitle>
+
+        </ContactWrapper>
+      </ContactContainer>
+    </>
   )
 }
 
