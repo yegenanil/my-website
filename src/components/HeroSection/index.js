@@ -10,7 +10,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Hi, my name is</HeroH1>
-                <HeroH4>Anıl Yeğen</HeroH4>
+                <HeroH4 data-splitting className="rainbow-it">Anıl Yeğen</HeroH4>
                 <HeroP>I build things for the web. I enjoy building everything from small
                     business sites to rich interactive web apps</HeroP>
             </HeroContent>

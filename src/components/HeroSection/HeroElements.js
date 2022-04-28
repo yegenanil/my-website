@@ -71,7 +71,17 @@ export const HeroH4 = styled.h4`
     color: #fff;
     font-size: 48px;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 12px;   
+
+    &:hover {
+        color: #fff;
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 120px #fff,
+        0 0 160px #fff;
+    }
     
     @media screen and (max-width: 768px) {
         font-size: 40px;
