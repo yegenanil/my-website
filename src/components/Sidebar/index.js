@@ -1,6 +1,18 @@
-import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from "./SidebarElements"
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from "./SidebarElements";
+import { animateScroll as scroll } from 'react-scroll';
+import smooth from "react-scroll/modules/mixins/smooth";
 
-const Sidebar = ({isOpen, toggle}) => {
+
+const Sidebar = ({ isOpen, toggle }) => {
+
+    const toggleHome = () => {
+        scroll.scrollToTop();
+    }
+
+    const toggleAbout = () => {
+        scroll.scrollTo(1000, smooth);
+    }
+
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon>
@@ -8,14 +20,14 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="/">
+                    <SidebarLink to="/" onClick={toggleHome}>
+                        Home
+                    </SidebarLink>
+                    <SidebarLink to="/" onClick={toggleAbout}>
                         About Me
                     </SidebarLink>
-                    <SidebarLink to="/projects">
+                    <SidebarLink to="/">
                         Projects
-                    </SidebarLink>
-                    <SidebarLink to="/work">
-                        Work
                     </SidebarLink>
                 </SidebarMenu>
             </SidebarWrapper>
