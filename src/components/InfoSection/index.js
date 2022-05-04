@@ -15,7 +15,7 @@ const InfoSection = ({ lightBg, id, imgStart, topline, lightText, headline, dark
                             </TextWrapper>
                         </Column1>
                         <Column2>
-                            <ImgWrap>
+                            <ImgWrap options={{ max : 25 }}>
                                 <Img src={img2} alt={alt} />
                             </ImgWrap>
                         </Column2>

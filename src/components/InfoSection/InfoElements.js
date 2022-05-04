@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Tilt from 'react-tilt';
 
 export const InfoContainer = styled.div`
     color: #fff;
@@ -82,7 +83,7 @@ export const SubTitle = styled.p`
     
 `;
 
-export const ImgWrap = styled.div`
+export const ImgWrap = styled(Tilt)`
     max-width: 555px;
     height: 100%;
 `;
@@ -90,6 +91,5 @@ export const ImgWrap = styled.div`
 export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
-    padding-right: 0;
-    }
+    padding-right: 0;       
 `;
