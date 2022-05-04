@@ -11,7 +11,11 @@ const Navbar = ({ toggle }) => {
     }
 
     const toggleAbout = () => {
-        scroll.scrollTo(1000, smooth);
+        scroll.scrollTo(900, smooth);
+    }
+
+    const toggleProjects = () => {
+        scroll.scrollTo(1700, smooth);
     }
 
     return (
@@ -30,7 +34,7 @@ const Navbar = ({ toggle }) => {
                             <NavLinks to="/about" onClick={toggleAbout}>About Me</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="/projects">Projects</NavLinks>
+                            <NavLinks to="/projects" onClick={toggleProjects}>Projects</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

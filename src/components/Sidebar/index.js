@@ -10,7 +10,11 @@ const Sidebar = ({ isOpen, toggle }) => {
     }
 
     const toggleAbout = () => {
-        scroll.scrollTo(1000, smooth);
+        scroll.scrollTo(900, smooth);
+    }
+
+    const toggleProjects = () => {
+        scroll.scrollTo(1700, smooth);
     }
 
     return (
@@ -26,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="/" onClick={toggleAbout}>
                         About Me
                     </SidebarLink>
-                    <SidebarLink to="/">
+                    <SidebarLink to="/" onClick={toggleProjects}>
                         Projects
                     </SidebarLink>
                 </SidebarMenu>
