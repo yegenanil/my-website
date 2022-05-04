@@ -15,14 +15,14 @@ const Navbar = ({ toggle }) => {
     }
 
     const toggleProjects = () => {
-        scroll.scrollTo(1700, smooth);
+        scroll.scrollTo(1680, smooth);
     }
 
     return (
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to="/" onClick={toggleHome}>MyLogo</NavLogo>
+                    <NavLogo to="/" onClick={toggleHome}>YGN</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>

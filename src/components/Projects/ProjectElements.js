@@ -19,18 +19,14 @@ export const ProjectsContainer = styled.div`
 
 export const ProjectsH1 = styled.h1`
     font-size: 2.5rem;
+    margin-bottom: 64px;    
     color: #fff;
-    margin-bottom: 64px;
-
-    &:hover {
-        color: #fff;
-        text-shadow: 0 0 10px #fff,
-        0 0 20px #fff,
-        0 0 40px #fff,
-        0 0 80px #fff,
-        0 0 120px #fff,
-        0 0 160px #fff;
-    }
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 120px #fff,
+    0 0 160px #fff;    
 
     @media (max-width: 480px) {
         font-size: 2rem;
