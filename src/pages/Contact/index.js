@@ -18,7 +18,7 @@ const Contact = () => {
   const formSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_xckdkeo', 'template_yz5ybs4', e.target, `${process.env.REACT_APP_API_KEY}`);
+    emailjs.sendForm('service_xckdkeo', 'template_yz5ybs4', e.target, '4mlqX3jMoZYwUPRW3');
     toast.success('Message sent successfully! You are being redirected to the home page', {
       position: toast.POSITION.TOP_CENTER,
     })
