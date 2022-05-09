@@ -21,15 +21,6 @@ const Footer = () => {
                             <SocialIconLink href="https://github.com/yegenanil" target="_blank" aria-label="Github">
                                 <FaGithub />
                             </SocialIconLink>
-                            <SocialIconLink href="https://www.instagram.com/ygnanil/" target="_blank" aria-label="Instagram">
-                                <FaInstagram />
-                            </SocialIconLink>
-                            <SocialIconLink href="https://twitter.com/YegenAn" target="_blank" aria-label="Twitter">
-                                <FaTwitter />
-                            </SocialIconLink>
-                            <SocialIconLink href="https://www.facebook.com/profile.php?id=100002258584146" target="_blank" aria-label="Facebook">
-                                <FaFacebook />
-                            </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>

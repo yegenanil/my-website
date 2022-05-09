@@ -54,15 +54,21 @@ export const WebSiteRights = styled.small`
 `;
 
 export const SocialIcons = styled.div`
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
     align-items: center;
     width: 240px;
+
+    @media screen and (max-width: 820px) {
+        align-items: center;
+        justify-content: center;
+    }
 `;
 
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+    margin-right: 25px;
+    
 
     &:hover {
         color: #01bf71;
