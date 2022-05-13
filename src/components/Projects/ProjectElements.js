@@ -52,7 +52,7 @@ export const ProjectsWrapper = styled.div`
     }
 `;
 
-export const ProjectsCard = styled.div`
+export const ProjectsCard = styled.a`
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -61,8 +61,10 @@ export const ProjectsCard = styled.div`
     border-radius: 10px;
     max-height: 340px;
     padding: 30px;
+    color: #101010;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
 
     &:hover {
         transform: scale(1.02);
@@ -75,6 +77,7 @@ export const ProjectsIcon = styled.img`
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
+    object-fit: contain;
 `;
 
 export const ProjectsH2 = styled.h2`

@@ -2,6 +2,7 @@ import { ProjectsCard, ProjectsContainer, ProjectsH1, ProjectsH2, ProjectsIcon, 
 import icon1 from "../../images/icon1.svg";
 import icon2 from "../../images/icon2.svg";
 import icon3 from "../../images/icon3.svg";
+import berlin from "../../images/berlin.png";
 
 
 const Projects = () => {
@@ -21,10 +22,10 @@ const Projects = () => {
                     <ProjectsP>I still develop clinic app with React, React Router, Redux and ChakraUI
                     </ProjectsP>
                 </ProjectsCard>
-                <ProjectsCard>
-                    <ProjectsIcon src={icon3} />
-                    <ProjectsH2>I am a self-taught Developer</ProjectsH2>
-                    <ProjectsP>I’m currently learning everything there is to know about web development.
+                <ProjectsCard href="https://weatherygn.netlify.app/" target="_blank">
+                    <ProjectsIcon src={berlin} />
+                    <ProjectsH2>Weather App Reactjs</ProjectsH2>
+                    <ProjectsP>Build a weather app in react js using Open Weather API. Momentjs, tailwindcss
                     </ProjectsP>
                 </ProjectsCard>
             </ProjectsWrapper>
