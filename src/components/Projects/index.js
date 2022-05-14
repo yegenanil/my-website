@@ -19,7 +19,7 @@ const Projects = () => {
                 <ProjectsCard>
                     <ProjectsIcon src={icon2} />
                     <ProjectsH2>Freelance</ProjectsH2>
-                    <ProjectsP>I still develop clinic app with React, React Router, Redux and ChakraUI
+                    <ProjectsP>I have developed a clinic app with React, React Router, Redux, and ChakraUI
                     </ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard href="https://weatherygn.netlify.app/" target="_blank">
