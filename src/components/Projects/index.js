@@ -10,7 +10,7 @@ const Projects = () => {
         <ProjectsContainer>
             <ProjectsH1>My Projects</ProjectsH1>
             <ProjectsWrapper>
-                <ProjectsCard>
+                <ProjectsCard href="https://github.com/yegenanil?tab=repositories" target="_blank">
                     <ProjectsIcon src={icon1} />
                     <ProjectsH2>Custom design to React </ProjectsH2>
                     <ProjectsP>I converted Figma, Sketch, Adobe XD etc. designs to React components
