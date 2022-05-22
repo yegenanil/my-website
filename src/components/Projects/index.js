@@ -1,4 +1,4 @@
-import { ProjectsCard, ProjectsContainer, ProjectsH1, ProjectsH2, ProjectsIcon, ProjectsP, ProjectsWrapper } from "./ProjectElements"
+import { ProjectCard, ProjectContainer, ProjectH1, ProjectH2, ProjectIcon, ProjectP, ProjectWrapper } from "./ProjectElements"
 import icon1 from "../../images/icon1.svg";
 import icon2 from "../../images/icon2.svg";
 import icon3 from "../../images/icon3.svg";
@@ -7,29 +7,29 @@ import berlin from "../../images/berlin.png";
 
 const Projects = () => {
     return (
-        <ProjectsContainer>
-            <ProjectsH1>My Projects</ProjectsH1>
-            <ProjectsWrapper>
-                <ProjectsCard href="https://github.com/yegenanil?tab=repositories" target="_blank">
-                    <ProjectsIcon src={icon1} />
-                    <ProjectsH2>Custom design to React </ProjectsH2>
-                    <ProjectsP>I converted Figma, Sketch, Adobe XD etc. designs to React components
-                    </ProjectsP>
-                </ProjectsCard>
-                <ProjectsCard>
-                    <ProjectsIcon src={icon2} />
-                    <ProjectsH2>Freelance</ProjectsH2>
-                    <ProjectsP>I have developed a clinic app with React, React Router, Redux, and ChakraUI
-                    </ProjectsP>
-                </ProjectsCard>
-                <ProjectsCard href="https://weatherygn.netlify.app/" target="_blank">
-                    <ProjectsIcon src={berlin} />
-                    <ProjectsH2>Weather App Reactjs</ProjectsH2>
-                    <ProjectsP>Build a weather app in react js using Open Weather API. Momentjs, tailwindcss
-                    </ProjectsP>
-                </ProjectsCard>
-            </ProjectsWrapper>
-        </ProjectsContainer>
+        <ProjectContainer>
+            <ProjectH1>My Projects</ProjectH1>
+            <ProjectWrapper>
+                <ProjectCard href="https://github.com/yegenanil?tab=repositories" target="_blank">
+                    <ProjectIcon src={icon1} />
+                    <ProjectH2>Custom design to React </ProjectH2>
+                    <ProjectP>I converted Figma, Sketch, Adobe XD etc. designs to React components
+                    </ProjectP>
+                </ProjectCard>
+                {/* <ProjectCard>
+                    <ProjectIcon src={icon2} />
+                    <ProjectH2>Freelance</ProjectH2>
+                    <ProjectP>I have developed a clinic app with React, React Router, Redux, and ChakraUI
+                    </ProjectP>
+                </ProjectCard> */}
+                <ProjectCard href="https://weatherygn.netlify.app/" target="_blank">
+                    <ProjectIcon src={berlin} />
+                    <ProjectH2>Weather App Reactjs</ProjectH2>
+                    <ProjectP>a weather app in Reactjs using Open Weather API, Momentjs, Tailwind CSS
+                    </ProjectP>
+                </ProjectCard>
+            </ProjectWrapper>
+        </ProjectContainer>
     )
 }
 

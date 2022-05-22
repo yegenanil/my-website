@@ -1,5 +1,4 @@
 import { FaBars } from 'react-icons/fa';
-import { Outlet } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
 import smooth from 'react-scroll/modules/mixins/smooth';
 import { MobileIcon, Nav, NavbarContainer, NavBtn, NavBtnLink, NavItem, NavLinks, NavLogo, NavMenu } from './NavbarElements';
@@ -42,8 +41,6 @@ const Navbar = ({ toggle }) => {
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
-
-            <Outlet />
         </>
     )
 }
