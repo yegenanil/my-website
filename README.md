@@ -6,7 +6,7 @@ You can view this project at https://anilyegen.netlify.app/
 
 ## Technologies
 
-Reactjs, Styled-components
+React, Styled-components
 
 ## How to install
 
